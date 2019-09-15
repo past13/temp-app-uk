@@ -4,9 +4,10 @@ class ProjectListService extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      loading:true,
-      list: null
+      loading: true,
+      list: []
     };
+    this.numbers = [1, 2, 3, 4, 5];
   }
 
   async componentDidMount() {
@@ -15,29 +16,25 @@ class ProjectListService extends React.Component {
       return response.json();
     })
     .then(data => {
-      this.setState({ list: data});
+      this.setState({ list: data, loading: false});
       console.log("state", this.state.list)
     })
     .catch(error => console.log(error))
   }
 
   render() {
+    console.log(this.state.list);
       return (
         <div>
-          {
-            this.state.list.map(((project, index) =>
-              <div>
-                <div>
-                  aaa
-                </div>
-              </div>
-            ))
-          }
+          {this.state.list.map((item, index) => 
+            <div key={index}>
+              <div>{item.id}</div>
+              <div>{item.title}</div>
+            </div>
+          )};
         </div>
       );
   }
 }
 
 export default ProjectListService;
-
-{/* <div><pre>{JSON.stringify(this.state.list, null, 2) }</pre></div> */}

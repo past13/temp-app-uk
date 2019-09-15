@@ -1,10 +1,12 @@
 import React, { Component } from 'react';
+import NavRouter from './NavRouter';
 
 class Home extends Component {
   render() {
     return (
         <div>
-          <h2>Home</h2>
+          <NavRouter />
+          <div>Home</div>
         </div>
     );
   }
