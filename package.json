@@ -3,8 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "cors": "^2.8.5",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1"
   },
@@ -14,9 +16,13 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "eslintConfig": {
-    "extends": "react-app"
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
+  "author": "",
+  "license": "ISC",
   "browserslist": {
     "production": [
       ">0.2%",

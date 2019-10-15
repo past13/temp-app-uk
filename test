@@ -1,0 +1,174 @@
+<div>
+          <div>
+          {this.state.list.length === 0 ? (
+              <div>loading...</div>
+            ) : (
+              <div>
+              {this.state.list.map((item, index) => 
+                <div key={index}>
+                  <div>{item.id}</div>
+                  <div>{item.title}</div>
+                </div>
+              )}
+              </div> 
+          )}
+          </div>
+        </div>
+
+
+         // .then(response => {
+    //   return response.json();
+    // })
+    // .then(data => {
+    //   this.setState({ list: data});
+    // })
+    // .catch(error => console.log(error))
+
+  // render() {
+  //     return (
+  //       <div>
+  //         <div>
+            
+          //{this.state.list.length === 0 ? (
+            //  <div>loading...</div>
+            //) : (
+             // <div>
+              //{this.state.list.map((item, index) => 
+                //<div key={index}>
+                  //<div>{item.id}</div>
+                  <div>{item.title}</div>
+                </div>
+              )}
+              </div> 
+          )} 
+        //   </div>
+        // </div>
+      // );
+      {/* {this.columNames.map((item, index) => 
+             <div key={index}>  
+                <div >{item.Name}</div>
+                <button onClick={() => 
+                    this.handleClick(index)}>
+                    <Project project={1}/>Click
+                </button>
+            </div>
+            )} */}
+
+            const routes = [{
+  path: '/',
+  component: Home,
+}, {
+  path: '/projectList',
+  component: ProjectList,
+}, {
+  path: '/project:id',
+  component: Project,
+},{
+  path: '/about',
+  component: About,
+}];
+
+
+
+class App extends React.Component {
+  render() {
+    const routeComponents = routes.map(({path, component}, key) => <Route exact path={path} component={component} key={key} />);
+    return (
+        <BrowserRouter>
+          {routeComponents}
+        </BrowserRouter>
+    );
+  }
+}
+
+
+import React, {Component} from 'react';
+import ReactDOM from 'react-dom';
+import { Route, Link, BrowserRouter as Router, Switch 
+} from 'react-router-dom'
+import './index.css'
+import Home from './Home';
+import Detail from './Detail';
+import Projects from './Projects';
+import Notfound from './Notfound';
+
+import DataList from './DataList';
+
+const routes = [
+  {
+    path: '/home',
+    component: Home,
+    id: 1 
+  }
+]
+class Index extends Component {
+    render() {
+      return (
+        <Router>
+          <div>
+            <ul>
+              <li><Link to='/home'>Home</Link></li>
+            </ul>
+            <hr />
+
+            {routes.map(({ path, component: C, id}) => (
+              <Route
+              path={path}
+              render={(props) => <C {...props} id={id}/>}
+              />
+            ))}
+          </div>
+        </Router>
+      )
+    }
+}
+  // <Router>
+  //   <div>
+  //     <ul>
+  //       <li>
+  //         <NavLink exact activeClassName="active" to="/">
+  //           App
+  //         </NavLink>
+  //       </li>
+  //       <li>
+  //         <NavLink activeClassName="active" to="/projects">
+  //           Projects
+  //         </NavLink>
+  //       </li>
+  //       <li>
+  //         <NavLink activeClassName="active" to="/home">
+  //           Home
+  //         </NavLink>
+  //       </li>
+  //     </ul>
+  //     <Switch>
+  //       <Route exact path="/" component={Home} />
+  //       <Route path="/projects" component={Projects} />
+  //       <Route path="/home" component={Home} />
+  //       <Route component={Notfound} />
+  //     </Switch>
+  //   </div>
+  // </Router>
+
+ReactDOM.render(<Index />, document.getElementById('root'))
+const uniqueCategories = [];
+    projects.map(img => {
+        if (uniqueCategories.indexOf(img.userId) === -1) {
+            uniqueCategories.push(img.userId)
+        }
+    });
+
+        {list.map((item, index) => 
+                <div key={index}>
+                <Link
+                    to={{ pathname: '/project/' + item.id}}
+                    className="list-group-item"
+                    project={item}
+                    key={item.id}>
+                    {item.title}
+                </Link>
+                  {/* <div>{item.id}</div>
+                  <div>{item.title}</div> */}
+                
+                </div>
+              )}
