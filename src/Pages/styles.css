@@ -1,0 +1,664 @@
+#Detail {
+    position: absolute;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    width: 1440px;
+    height: 900px;
+    background-color: rgba(233,240,245,1);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    --web-view-name: Detail;
+    --web-view-id: Detail;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+.Bitmap {
+    position: absolute;
+    overflow: visible;
+    width: 1438px;
+    height: 79px;
+    left: 1px;
+    top: 0px;
+}
+#card {
+    filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.078));
+}
+.card {
+    position: absolute;
+    overflow: visible;
+    width: 1170px;
+    height: 768px;
+    left: 164px;
+    top: 169px;
+}
+.Rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 1439px;
+    height: 64px;
+    left: 1px;
+    top: 79px;
+}
+#John_gmail_com {
+    position: absolute;
+    left: 1164px;
+    top: 101px;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(20,24,33,1);
+}
+#Avatar {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1110px;
+    top: 91px;
+    overflow: visible;
+}
+.Mask_A6_Rectangle_7 {
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Avatar_A6_Group_2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Wood {
+    position: absolute;
+    left: 391px;
+    top: 423px;
+    overflow: visible;
+    width: 47px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+}
+#Button___Default {
+    position: absolute;
+    width: 336.8px;
+    height: 20px;
+    left: 551.5px;
+    top: 631.417px;
+    overflow: visible;
+}
+#Button_Text_Color___ {
+    position: absolute;
+    width: 336.8px;
+    height: 20px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Type_here {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+    width: 337.8px;
+    height: 20px;
+    line-height: 20px;
+    margin-top: -3px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255,255,255,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Title {
+    position: absolute;
+    width: 130px;
+    height: 32px;
+    left: 655.5px;
+    top: 198px;
+    overflow: visible;
+}
+#Choose_Material {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 131px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(33,41,58,1);
+}
+#LOGO {
+    position: absolute;
+    left: 164.5px;
+    top: 95px;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(98,108,122,1);
+    letter-spacing: -0.16px;
+}
+._ {
+    overflow: visible;
+    position: absolute;
+    top: 101.5px;
+    left: 238px;
+    width: 25.719px;
+    height: 20px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Index_living {
+    position: absolute;
+    left: 1025px;
+    top: 100.5px;
+    overflow: visible;
+    width: 52px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(102,106,110,1);
+    letter-spacing: 0.06363636493682862px;
+    text-decoration: true;
+}
+#Index_living_A6_Text_7 {
+    position: absolute;
+    left: 213px;
+    top: 204.5px;
+    overflow: visible;
+    width: 35px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(102,106,110,1);
+    letter-spacing: 0.06363636493682862px;
+    text-decoration: true;
+}
+#Index_living_A6_Text_8 {
+    position: absolute;
+    left: 926px;
+    top: 101.5px;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(102,106,110,1);
+    letter-spacing: 0.06363636493682862px;
+    text-decoration: true;
+}
+#Index_living_A6_Text_9 {
+    position: absolute;
+    left: 213px;
+    top: 268.5px;
+    overflow: visible;
+    width: 124px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(44,46,49,1);
+    letter-spacing: 0.06363636493682862px;
+}
+#Photos {
+    position: absolute;
+    width: 195.64px;
+    height: 136.288px;
+    left: 371px;
+    top: 246.62px;
+    overflow: visible;
+}
+.Rectangle_A6_Rectangle_10 {
+    position: absolute;
+    overflow: visible;
+    width: 195.64px;
+    height: 136.288px;
+    left: 0px;
+    top: 0px;
+}
+#Photos_A6_Group_7 {
+    position: absolute;
+    width: 195.64px;
+    height: 136.288px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Photos_A6_Group_8 {
+    position: absolute;
+    width: 186.5px;
+    height: 138.408px;
+    left: 599px;
+    top: 244.5px;
+    overflow: visible;
+}
+.Rectangle_A6_Rectangle_11 {
+    position: absolute;
+    overflow: visible;
+    width: 184px;
+    height: 138.408px;
+    left: 0px;
+    top: 0px;
+}
+#Photos_A6_Group_9 {
+    position: absolute;
+    width: 129.64px;
+    height: 91.574px;
+    left: 56.86px;
+    top: 33px;
+    overflow: visible;
+}
+#Hey__How_s_it_going_ {
+    position: absolute;
+    left: 656px;
+    top: 300.958px;
+    overflow: hidden;
+    width: 97.36px;
+    height: 35px;
+    line-height: 22px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(128,123,123,1);
+    letter-spacing: -0.24117647171020506px;
+}
+#Index_living_A6_Text_11 {
+    position: absolute;
+    left: 220px;
+    top: 416.5px;
+    overflow: visible;
+    width: 73px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(16,16,16,1);
+    letter-spacing: 0.06363636493682862px;
+}
+#Photos_A6_Group_10 {
+    position: absolute;
+    width: 459.64px;
+    height: 138.172px;
+    left: 370px;
+    top: 420.5px;
+    overflow: visible;
+}
+.Rectangle_A6_Rectangle_14 {
+    position: absolute;
+    overflow: visible;
+    width: 459.64px;
+    height: 138.172px;
+    left: 0px;
+    top: 0px;
+}
+#Photos_A6_Group_11 {
+    position: absolute;
+    width: 459.64px;
+    height: 138.172px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Hey__How_s_it_going__A6_Text_12 {
+    position: absolute;
+    left: 391px;
+    top: 441.5px;
+    overflow: hidden;
+    width: 417.64px;
+    height: 48.358px;
+    line-height: 22px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(51,48,48,1);
+    letter-spacing: -0.24117647171020506px;
+}
+#Index_living_A6_Text_13 {
+    position: absolute;
+    left: 220px;
+    top: 594.5px;
+    overflow: visible;
+    width: 82px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(16,16,16,1);
+    letter-spacing: 0.06363636493682862px;
+}
+#Photos_A6_Group_12 {
+    position: absolute;
+    width: 302.546px;
+    height: 37.278px;
+    left: 370px;
+    top: 594.5px;
+    overflow: visible;
+}
+.Rectangle_A6_Rectangle_16 {
+    position: absolute;
+    overflow: visible;
+    width: 302.546px;
+    height: 37.278px;
+    left: 0px;
+    top: 0px;
+}
+#Photos_A6_Group_13 {
+    position: absolute;
+    width: 302.546px;
+    height: 37.278px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Index_living_A6_Text_14 {
+    position: absolute;
+    left: 220px;
+    top: 668.5px;
+    overflow: visible;
+    width: 68px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(16,16,16,1);
+    letter-spacing: 0.06363636493682862px;
+}
+#Photos_A6_Group_14 {
+    position: absolute;
+    width: 302.546px;
+    height: 37.278px;
+    left: 371px;
+    top: 668.5px;
+    overflow: visible;
+}
+.Rectangle_A6_Rectangle_18 {
+    position: absolute;
+    overflow: visible;
+    width: 302.546px;
+    height: 37.278px;
+    left: 0px;
+    top: 0px;
+}
+#Photos_A6_Group_15 {
+    position: absolute;
+    width: 302.546px;
+    height: 37.278px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Hey__How_s_it_going__A6_Text_15 {
+    position: absolute;
+    left: 399px;
+    top: 604.5px;
+    overflow: hidden;
+    width: 168.64px;
+    height: 18.358px;
+    line-height: 22px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(51,48,48,1);
+    letter-spacing: -0.24117647171020506px;
+}
+#Hey__How_s_it_going__A6_Text_16 {
+    position: absolute;
+    left: 399px;
+    top: 677.5px;
+    overflow: hidden;
+    width: 168.64px;
+    height: 18.358px;
+    line-height: 22px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(51,48,48,1);
+    letter-spacing: -0.24117647171020506px;
+}
+#Button___Default_A6_Group_16 {
+    position: absolute;
+    width: 303.546px;
+    height: 44.755px;
+    left: 585px;
+    top: 790.5px;
+    overflow: visible;
+}
+#___Button_Shape {
+    position: absolute;
+    width: 303.546px;
+    height: 44.755px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Mask_A6_Rectangle_20 {
+    filter: drop-shadow(0px 5px 20px rgba(59, 124, 255, 0.2));
+}
+.Mask_A6_Rectangle_20 {
+    position: absolute;
+    overflow: visible;
+    width: 363.546px;
+    height: 104.755px;
+    left: 0px;
+    top: 0px;
+}
+#___Button_Shape_A6_Group_18 {
+    position: absolute;
+    width: 303.546px;
+    height: 44.755px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Type_here_A6_Text_17 {
+    position: absolute;
+    left: 175.9px;
+    top: 10.411px;
+    overflow: visible;
+    width: 5px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1px;
+    color: rgba(34,71,116,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Type_here_A6_Text_18 {
+    position: absolute;
+    left: 691px;
+    top: 805px;
+    overflow: visible;
+    width: 93px;
+    white-space: nowrap;
+    line-height: 23px;
+    margin-top: -4px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(34,71,116,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Hey__How_s_it_going__A6_Text_19 {
+    position: absolute;
+    left: 380px;
+    top: 741.5px;
+    overflow: hidden;
+    width: 113px;
+    height: 17px;
+    line-height: 22px;
+    margin-top: -5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    color: rgba(51,48,48,1);
+    letter-spacing: -0.24117647171020506px;
+}
+.Image_35 {
+    position: absolute;
+    overflow: visible;
+    width: 82px;
+    height: 112px;
+    left: 428px;
+    top: 259px;
+}
+#Photos_A6_Group_19 {
+    position: absolute;
+    width: 186.5px;
+    height: 138.408px;
+    left: 816px;
+    top: 244.5px;
+    overflow: visible;
+}
+.Rectangle_A6_Rectangle_23 {
+    position: absolute;
+    overflow: visible;
+    width: 184px;
+    height: 138.408px;
+    left: 0px;
+    top: 0px;
+}
+#Photos_A6_Group_20 {
+    position: absolute;
+    width: 129.64px;
+    height: 91.574px;
+    left: 56.86px;
+    top: 33px;
+    overflow: visible;
+}
+#Hey__How_s_it_going__A6_Text_20 {
+    position: absolute;
+    left: 873px;
+    top: 300.958px;
+    overflow: hidden;
+    width: 97.36px;
+    height: 35px;
+    line-height: 22px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(128,123,123,1);
+    letter-spacing: -0.24117647171020506px;
+}
+#Photos_A6_Group_21 {
+    position: absolute;
+    width: 186.5px;
+    height: 138.408px;
+    left: 1033px;
+    top: 245.5px;
+    overflow: visible;
+}
+.Rectangle_A6_Rectangle_25 {
+    position: absolute;
+    overflow: visible;
+    width: 184px;
+    height: 138.408px;
+    left: 0px;
+    top: 0px;
+}
+#Photos_A6_Group_22 {
+    position: absolute;
+    width: 129.64px;
+    height: 91.574px;
+    left: 56.86px;
+    top: 37px;
+    overflow: visible;
+}
+#Hey__How_s_it_going__A6_Text_21 {
+    position: absolute;
+    left: 1090px;
+    top: 301.958px;
+    overflow: hidden;
+    width: 97.36px;
+    height: 35px;
+    line-height: 22px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(128,123,123,1);
+    letter-spacing: -0.24117647171020506px;
+}
+#Hey__How_s_it_going__A6_Text_22 {
+    position: absolute;
+    left: 530px;
+    top: 253.5px;
+    overflow: hidden;
+    width: 40px;
+    height: 15px;
+    line-height: 22px;
+    margin-top: -4.5px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    color: rgba(128,123,123,1);
+    letter-spacing: -0.24117647171020506px;
+}

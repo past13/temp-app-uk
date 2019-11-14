@@ -1,15 +1,27 @@
-import React, { Component } from 'react';
-import RouterComponent from './RouterComponent';
+import React, { Component, Fragment } from 'react';
+import { BrowserRouter } from 'react-router-dom'; 
+
+import NavBar from './Layout/NavBar';
+import Routes from './Layout/Routes';
+import Footer from './Layout/Footer';
 
 class App extends Component {
 
-    render() {
-      return (
-        <div>App
-             <RouterComponent />
-        </div>
-      )
-    }
+  render() {
+
+    return (
+      <BrowserRouter>
+        <Fragment>
+        
+        <NavBar />
+        
+        <Routes />
+        
+        <Footer /> 
+      </Fragment>
+      </BrowserRouter>
+    );
   }
-  
-  export default App;
+}
+
+export default App;

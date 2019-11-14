@@ -11,14 +11,10 @@ class FetchData extends Component {
             this.setState({ projects })
          });
     }
-
   render() {
-    const projects = this.state.projects || [];
-    console.log(projects)
     return (
       <div>
       <ul>
-     
       </ul>
     </div>
     )

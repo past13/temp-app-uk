@@ -4,13 +4,6 @@ import { Route, Link } from 'react-router-dom';
 import ProjectByCategory from './ProjectByCategory';
 
 class Category extends Component {
-    constructor(props) {
-        super(props);
-            this.state = {  
-                redirect: false
-            };
-            // this.handleClick = this.handleClick.bind(this);
-    }
 
     columNames = [
         {
@@ -55,32 +48,34 @@ class Category extends Component {
          }
     ];
     
-    handleClick(index) {
-    }
-
   render() {
     
     const projects = this.props.projects || [];
 
     return (
-        <div>
-            <ul>
-                {this.columNames.map( item => {
-                return <li key={item.id}>
-                            <Link to={{ 
-                                pathname: '/categories/' + item.id,
-                                id: item.id
-                            }}>
-                                {item.Name}
-                            </Link>
-                        </li>
-                })}
-            </ul>
-            {/* const url = this.props.match.url; */}
-            <Route path={`/categories/:id`} render={
-                (props) => <ProjectByCategory  {...projects.filter(project => project.userId === props.location.id)}/>
-            }/>
-        </div>
+        <>
+        <header>Header</header>
+        <main>
+            <div>
+                <ul>
+                    {this.columNames.map( item => {
+                    return <li key={item.id}>
+                                <Link to={{ 
+                                    pathname: '/categories/' + item.id,
+                                    id: item.id
+                                }}>
+                                    {item.Name}
+                                </Link>
+                            </li>
+                    })}
+                </ul>
+                {/* const url = this.props.match.url; */}
+                <Route path={`/categories/:id`} render={
+                    (props) => <ProjectByCategory  {...projects.filter(project => project.userId === props.location.id)}/>
+                }/>
+            </div>
+        </main>
+        </>
     );
   }
 }

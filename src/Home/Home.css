@@ -1,5 +1,519 @@
-img {
-    height: 50%;
-    width: 50%;
-    border-radius: 8px;
+#Select_criteria {
+    position: absolute;
+    box-sizing: border-box;
+    background: #E5E5E5;
+    width: 1440px;
+    height: 900px;
+    background-color: rgba(233,240,245,1);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    --web-view-name: Select criteria;
+    --web-view-id: Select_criteria;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+.Bitmap {
+    position: absolute;
+    overflow: visible;
+    width: 1438px;
+    height: 79px;
+    left: 1px;
+    top: 0px;
+}
+#card {
+    filter: drop-shadow(0px 20px 20px rgba(0, 0, 0, 0.078));
+}
+.card {
+    position: absolute;
+    overflow: visible;
+    width: 1170px;
+    height: 595px;
+    left: 165px;
+    top: 180px;
+}
+.Rectangle {
+    position: absolute;
+    overflow: visible;
+    width: 1439px;
+    height: 64px;
+    left: 1px;
+    top: 79px;
+}
+#John_gmail_com {
+    position: absolute;
+    left: 1164px;
+    top: 101px;
+    overflow: visible;
+    width: 111px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(20,24,33,1);
+}
+#Avatar {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 1110px;
+    top: 91px;
+    overflow: visible;
+}
+.Mask_A3_Rectangle_7 {
+    position: absolute;
+    overflow: visible;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+}
+#Avatar_A3_Group_2 {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Wood {
+    position: absolute;
+    left: 391px;
+    top: 423px;
+    overflow: visible;
+    width: 47px;
+    white-space: nowrap;
+    line-height: 22px;
+    margin-top: -2px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    color: rgba(255,255,255,1);
+}
+#Product_Category {
+    position: absolute;
+    left: 230px;
+    top: 314px;
+    overflow: visible;
+    width: 136px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(133,137,151,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Input {
+    position: absolute;
+    width: 279px;
+    height: 50px;
+    left: 918px;
+    top: 345px;
+    overflow: visible;
+}
+.Bg {
+    position: absolute;
+    overflow: visible;
+    width: 279px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Chairs {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(78,90,105,1);
+}
+#Dropdown_Icon {
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 246px;
+    top: 13px;
+    overflow: visible;
+}
+.Shape {
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 24px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_94 {
+    overflow: visible;
+    position: absolute;
+    top: 8px;
+    left: 4.167px;
+    width: 11.667px;
+    height: 8px;
+    transform: rotate(180deg);
+}
+#Location {
+    position: absolute;
+    left: 230px;
+    top: 460px;
+    overflow: visible;
+    width: 57px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(133,137,151,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Input_A3_Group_5 {
+    position: absolute;
+    width: 279px;
+    height: 50px;
+    left: 230px;
+    top: 491px;
+    overflow: visible;
+}
+.Bg_A3_Rectangle_10 {
+    position: absolute;
+    overflow: visible;
+    width: 279px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#London__UK {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(78,90,105,1);
+}
+#Dropdown_Icon_A3_Group_6 {
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 246px;
+    top: 13px;
+    overflow: visible;
+}
+.Shape_A3_Path_3 {
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 24px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_94_A3_Path_4 {
+    overflow: visible;
+    position: absolute;
+    top: 8px;
+    left: 4.167px;
+    width: 11.667px;
+    height: 8px;
+    transform: rotate(180deg);
+}
+#Title {
+    position: absolute;
+    width: 100px;
+    height: 32px;
+    left: 659.5px;
+    top: 208px;
+    overflow: visible;
+}
+#Choose_Material {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+    width: 101px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(33,41,58,1);
+}
+#LOGO {
+    position: absolute;
+    left: 164.5px;
+    top: 95px;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(98,108,122,1);
+    letter-spacing: -0.16px;
+}
+#Button___Default {
+    position: absolute;
+    width: 277px;
+    height: 45.957px;
+    left: 582px;
+    top: 605.043px;
+    overflow: visible;
+}
+#___Button_Shape {
+    position: absolute;
+    width: 277px;
+    height: 45.957px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Mask_A3_Rectangle_12 {
+    filter: drop-shadow(0px 5px 20px rgba(59, 124, 255, 0.2));
+}
+.Mask_A3_Rectangle_12 {
+    position: absolute;
+    overflow: visible;
+    width: 337px;
+    height: 105.957px;
+    left: 0px;
+    top: 0px;
+}
+#___Button_Shape_A3_Group_10 {
+    position: absolute;
+    width: 277px;
+    height: 45.957px;
+    left: 0px;
+    top: 0px;
+    overflow: visible;
+}
+#Type_here {
+    position: absolute;
+    left: 114px;
+    top: 15.457px;
+    overflow: visible;
+    width: 49px;
+    white-space: nowrap;
+    line-height: 23px;
+    margin-top: -4px;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(34,71,116,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Index_living {
+    position: absolute;
+    left: 1029px;
+    top: 101px;
+    overflow: visible;
+    width: 52px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(102,106,110,1);
+    letter-spacing: 0.06363636493682862px;
+    text-decoration: true;
+}
+#Input_A3_Group_11 {
+    position: absolute;
+    width: 279px;
+    height: 50px;
+    left: 230px;
+    top: 345px;
+    overflow: visible;
+}
+.Bg_A3_Rectangle_13 {
+    position: absolute;
+    overflow: visible;
+    width: 279px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Chairs_A3_Text_11 {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(78,90,105,1);
+}
+#Dropdown_Icon_A3_Group_12 {
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 246px;
+    top: 13px;
+    overflow: visible;
+}
+.Shape_A3_Path_5 {
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 24px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_94_A3_Path_6 {
+    overflow: visible;
+    position: absolute;
+    top: 8px;
+    left: 4.167px;
+    width: 11.667px;
+    height: 8px;
+    transform: rotate(180deg);
+}
+#Product_Category_A3_Text_12 {
+    position: absolute;
+    left: 574px;
+    top: 319px;
+    overflow: visible;
+    width: 107px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(133,137,151,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Input_A3_Group_13 {
+    position: absolute;
+    width: 279px;
+    height: 50px;
+    left: 574px;
+    top: 345px;
+    overflow: visible;
+}
+.Bg_A3_Rectangle_14 {
+    position: absolute;
+    overflow: visible;
+    width: 279px;
+    height: 50px;
+    left: 0px;
+    top: 0px;
+}
+#Chairs_A3_Text_13 {
+    position: absolute;
+    left: 13px;
+    top: 15px;
+    overflow: hidden;
+    width: 100px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: -4px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    color: rgba(78,90,105,1);
+}
+#Dropdown_Icon_A3_Group_14 {
+    position: absolute;
+    width: 20px;
+    height: 24px;
+    left: 246px;
+    top: 13px;
+    overflow: visible;
+}
+.Shape_A3_Path_7 {
+    overflow: visible;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 20px;
+    height: 24px;
+    transform: matrix(1,0,0,1,0,0);
+}
+.Path_94_A3_Path_8 {
+    overflow: visible;
+    position: absolute;
+    top: 8px;
+    left: 4.167px;
+    width: 11.667px;
+    height: 8px;
+    transform: rotate(180deg);
+}
+#Product_Category_A3_Text_14 {
+    position: absolute;
+    left: 918px;
+    top: 315px;
+    overflow: visible;
+    width: 114px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin-top: -3px;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: rgba(133,137,151,1);
+    letter-spacing: 0.22857141494750977px;
+}
+#Index_living_A3_Text_15 {
+    position: absolute;
+    left: 926px;
+    top: 101px;
+    overflow: visible;
+    width: 61px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    color: rgba(102,106,110,1);
+    letter-spacing: 0.06363636493682862px;
+    text-decoration: true;
 }
